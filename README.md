@@ -30,30 +30,30 @@ The original files are much larger and messier, these files had more columns and
 
 I learned about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. The code was written to provide the following information:
 
-#1 Popular times of travel (i.e., occurs most often in the start time)
+1- Popular times of travel (i.e., occurs most often in the start time)
 
-    most common month
-    most common day of week
-    most common hour of day
+    Most common month
+    Most common day of week
+    Most common hour of day
 
-#2 Popular stations and trip
+2- Popular stations and trip
 
-    most common start station
-    most common end station
-    most common trip from start to end (i.e., most frequent Combination of start station and end station)
+    Most common start station
+    Most common end station
+    Most common trip from start to end (i.e., most frequent combination of start station and end station)
 
-#3 Trip duration
+3- Trip duration
 
-    total travel time
-    average travel time
+    Total travel time
+    Average travel time
 
-#4 User info
+4- User info
 
-    counts of each user type
-    counts of each gender (only available for NYC and Chicago)
-    earliest, most recent, most common year of birth (only available for NYC and Chicago)
+    Counts of each user type
+    Counts of each gender (only available for NYC and Chicago)
+    Earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
-#5 The Files
+5- The Files
 
 To answer these questions using Python, i wrote a Python script. To help guide my work in this project, a template with helper code and comments was provided in a bikeshare.py file, and i did my scripting in there also. I used the three city dataset files too:
 
