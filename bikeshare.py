@@ -138,6 +138,7 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
+
     """Displays statistics on bikeshare users."""
 
     print('\nCalculating User Stats...\n')
@@ -170,7 +171,7 @@ def user_stats(df):
     while True:
         raw = input('\nWould you like to see some raw data? Enter yes or no.\n')
         if raw.lower() == 'yes':
-            print(df[x:x+5])
+            print(df[counter:counter+5])
             counter += 5
         else:
             break
